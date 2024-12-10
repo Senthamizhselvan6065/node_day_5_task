@@ -14,7 +14,7 @@
   @apply text-center text-[13px];
 }
 .right_card{
-  @apply w-full lg:w-[50%] flex justify-center items-center flex-col p-5 sm:p-8;
+  @apply w-full lg:w-[50%] flex justify-center items-center flex-col gap-2 p-5 sm:p-8;
 }
 .right_card_title{
   @apply text-3xl sm:text-4xl uppercase;
@@ -33,4 +33,14 @@
 }
 .nav_link{
   @apply text-blue-500 uppercase ml-1 tracking-wider hover:text-blue-600 hover:transition duration-200 ease-out;
+}
+
+.form_input_group{
+  @apply flex justify-center items-center relative w-full;
+}
+.form_input_group_icon{
+  @apply text-xl absolute left-3 text-blue-500;
+}
+.form_input_group_input{
+  @apply bg-neutral-100 w-full pl-10 pr-5 py-3 text-[15px] rounded-xl outline-none tracking-wider text-neutral-700;
 }
