@@ -9,8 +9,8 @@ const Hero = () => {
             <p className='text-sm lg:text-[16px] text-left md:text-center w-full md:w-[80%] lg:w-[70%] leading-5 md:leading-6 text-neutral-700'>The task is to implement a correct password reset flow with email verification and proper update of the new password in the database for the web app.</p>
         </div>
         <div className='w-full flex justify-center items-center flex-col md:flex-row gap-4 md:gap-10'>
-            <Link to="/sign_up" className='bg-gradient-to-r from-blue-600 to-blue-500 rounded-2xl px-6 py-2.5 text-sm tracking-widest text-white hover:shadow-btn hover:transition duration-200 ease-linear sm:hover:scale-110 w-full md:w-fit'>Sign Up</Link>
-            <Link to="/sign_in" className='bg-gradient-to-r from-blue-600 to-blue-500 rounded-2xl px-6 py-2.5 text-sm tracking-widest text-white hover:shadow-btn hover:transition duration-200 ease-linear sm:hover:scale-110 w-full md:w-fit'>Sign In</Link>
+            <Link to="/sign_up" className='bg-gradient-to-r from-blue-600 to-blue-500 rounded-2xl px-6 py-2.5 text-sm tracking-widest text-white hover:shadow-btn hover:transition duration-200 ease-linear sm:hover:scale-110 w-full md:w-fit text-center'>Sign Up</Link>
+            <Link to="/sign_in" className='bg-gradient-to-r from-blue-600 to-blue-500 rounded-2xl px-6 py-2.5 text-sm tracking-widest text-white hover:shadow-btn hover:transition duration-200 ease-linear sm:hover:scale-110 w-full md:w-fit text-center'>Sign In</Link>
         </div>
     </div>
   )
