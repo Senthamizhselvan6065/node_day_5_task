@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './card.module.css';
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
   return (
@@ -17,7 +18,7 @@ const SignUp = () => {
                      <input className={style.input} type="text" placeholder='Password...'/>
                      <button className={style.form_btn}>Sign up</button>
                 </form>
-                <p className={style.desc}>Already have an acccount? <span className={style.nav_link}>Sign In</span></p>
+                <p className={style.desc}>Already have an acccount? <Link to="/sign_in" className={style.nav_link}>Sign In</Link></p>
             </div>
         </div>
     </div>

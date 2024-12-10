@@ -2,6 +2,7 @@ import React from 'react';
 import style from './card.module.css';
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import passwordImg from '../assets/password.png';
+import { Link } from 'react-router-dom';
 const PasswordForgot = () => {
   return (
     <div className={style.container}>
@@ -19,7 +20,7 @@ const PasswordForgot = () => {
                     </div>
                     <button className={style.form_btn}>Send</button>
                 </form>
-                <p className={style.desc}><span className={style.nav_link}>Back to Login</span></p>
+                <p className={style.desc}><Link to="/sign_in" className={style.nav_link}>Back to Login</Link></p>
             </div>
         </div>
     </div>

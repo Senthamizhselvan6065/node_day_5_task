@@ -2,6 +2,7 @@ import React from 'react';
 import { TbPasswordUser } from "react-icons/tb";
 import style from './card.module.css';
 import resetImg from '../assets/reset.png';
+import { Link } from 'react-router-dom';
 
 const PasswordReset = () => {
   return (
@@ -24,7 +25,7 @@ const PasswordReset = () => {
                     </div>
                     <button className={style.form_btn}>Update</button>
                 </form>
-                <p className={style.desc}><span className={style.nav_link}>Back to Login!</span></p>
+                <p className={style.desc}><Link to="/sign_in" className={style.nav_link}>Back to Login!</Link></p>
             </div>
         </div>
     </div>
