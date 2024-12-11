@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Password Reset Application using mern stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "set NODE_ENV=development&&nodemon server.js",
+    "prod": "set NODE_ENV=production&&nodemon server.js"
+  },
+  "author": "senthamizhselvan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4",
+    "nodemon": "^3.1.7"
+  }
+}
